@@ -1,0 +1,12 @@
+default:
+  app:
+    - ./App.jsx
+  host: localhost
+  port: 3000
+development:
+  app:
+    - 'webpack-dev-server/client?http://${host}:${port}'
+    - ./App.jsx
+  outputPath: tmp
+production:
+  outputPath: build

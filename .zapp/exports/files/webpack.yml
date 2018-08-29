@@ -1,0 +1,5 @@
+filename: webpack.config.js
+template: webpack
+engine: handlebars
+mapping:
+  builds: /builds

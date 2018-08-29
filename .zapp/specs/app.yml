@@ -1,0 +1,6 @@
+name: '@zappjs/generator-webpack'
+title: Webpack Generator
+version: 0.1.0
+description: generates a webpack configuration file
+copyright: 2018 ZappJS
+license: apache-2.0
